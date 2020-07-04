@@ -17,3 +17,11 @@
 	text-decoration: line-through;
 }
 
+body {
+  background-image: url(https://ep00.epimg.net/elpais/imagenes/2015/03/26/icon/1427369520_433730_1427454642_noticia_normal.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.textContainer {
+	color: white;
+}

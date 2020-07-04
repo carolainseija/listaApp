@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/home.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     
-    <title>Document</title>
+    <title>HOME</title>
 </head>
 <header>
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <img src="sources/reloj.jpg" alt="reloj">
+                <img  class="imagenindex" src="sources/reloj.jpg" alt="reloj">
             </div>
-            <div class="col-12 bg-dark text-white">
-                    <h1 class="text-center">To do LIST</h1>
-           </div>
-        </div>
+            
+            <div class="col-12 bg-dark text-white mt-5 textt">
+                <h1 class="text-center">To do LIST</h1>
+       </div>
+    </div>
     </div>
 </header>
 <body>
@@ -26,9 +27,49 @@
             <div class="col-12 text-center mt-4">
                 <p1>¿Ya sabes que tenes que hacer hoy?</p1>
             </div>
+            
+           <form class="form-group d-flex justify-content-center align-items-center" name="formulario">
+                <!-- email -
+                 
+                  
+                  
+                <!-- contraseña-
+                <div class="col-6 pl-4 pl-md-0 pr-4 pr-md-0 text-center">
+                    <input type="password" id="login-password" class="form-control input-login" name="pwd" minlength="8" placeholder="Contraseña">
+                </div>
+              </form> -->
+
+             
+
+                <!--- <input type="text" name="nombre" id="nombre" maxlength="300px"  placeholder="nombre:"> -->
+                
+             </div>    
+             <div class="col-6">
+                <input type="email" name="email" id="email" class="form-control  input-login" placeholder="Correo electronico">
+            </div> 
+            <div class="col-6 pl-4 pl-md-0 pr-4 pr-md-0 text-center">
+                <input type="password" id="login-password" class="form-control input-login" name="pwd" minlength="8" placeholder="Contraseña">
+            </div> 
+           <!---->
+                
+            
+                 <br>
+                 <input type="submit" id="btn" value="Verificar Cuenta"><a href="entrar.html"></a></input>
+             </form>
+
+            
+             <div class="col-12">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">Mantener sesion iniciada
+            
+
+            </div>
+              
+            
+
+
             <div class="col-12 text-center mt-5 justify-content-between">
-                <button type="button" class="btn btn-primary btn-lg"><a class="text-white text-decoration-none" href="entrar.html"> COMENZAR AHORA A ENLISTAR TUS TAREAS</a></button>
-                <button type="button" class="btn btn-danger btn-lg"><a  class="text-white text-decoration-none" href="#">preguntas frecuentes</a></button>
+                <button type="submit" class="btn btn-primary btn-lg"><a class="text-white text-decoration-none" href="entrar.html"> COMENZAR AHORA A ENLISTAR TUS TAREAS</a></button>
+                <button type="button" class="btn btn-danger btn-lg"><a  class="text-white text-decoration-none" href="entrar.html">Entrar sin Cuenta</a></button>
             </div>
         </div>
     </div>
@@ -41,5 +82,5 @@
    </div>
 </footer>
 
-<script src="javascript/funcionalidad.js"></script>
+<script src="Javascript/home.js"></script>
 </html>
