@@ -8,7 +8,7 @@
 </head>
 <header class="container-fluid">
     <div class="col-12 text-dark pb-5 pt-5 justify-content-between shadow">
-
+        <h1 class="textMobile d-sm-block d-lg-none">to do LIST</h1>
         <h1 class="textContainer">to do LIST</h1>
         <p>Agregue su nueva lista para la tarea <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
@@ -43,17 +43,23 @@
 	
 	<!--icono de ir hacia atras-->
 	<div class="btnFixed d-flex justify-content-end mb-5 fixed-bottom">
-		<button type="button" class="btn btn-danger"><a  class="text-white text-decoration-none" href="index.html">Ir al inicio</a></button>
+		<button type="button" class="btn btn-danger"><a  class="text-white text-decoration-none" href="HOME.html">Ir al inicio</a></button>
             </div>
 	</div>
 	
-	<footer class="container-fluid border-top bg-dark text-white">
+	<footer class="container-fluid border-top bg-dark text-white d-sm-none d-lg-block">
 		<div class="col-3  d-flex justify-content-start mt-5">
+		
 		   <p class="d-flex justify-content-start mt-5">Creado en Uruguay</p>
-		   <p3>Version WEB</p3>
 		</div>
+		   <div class="col-5 hidden-sm-down d-none  d-lg-block">
+			<p3>Version WEB</p3>
+		   </div>
+		   <div class="col-5 hidden-lg-down   d-sm-block d-lg-none">
+			<p3>Version MOBIL</p3>
+		   </div>
+	   
 	 </footer>
-<script src="Javascript/funcionalidad.js"></script>
-</body>
+	 
 
 </html>

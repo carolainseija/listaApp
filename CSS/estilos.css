@@ -22,6 +22,10 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-.textContainer {
+.textcontainer {
 	color: white;
+}
+
+.textMobile {
+	color: tomato;
 }
