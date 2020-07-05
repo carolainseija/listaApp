@@ -1,6 +1,3 @@
-
-//JAVASCRIPT PARA ENTRAR
-
 (function(){
     //variables
     var lista = document.getElementById("lista"),
