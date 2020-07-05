@@ -61,4 +61,7 @@ function ajustes(variable){
     alert(prompt("cual es su nombre?") + " " + "si decea cambia de usuario solo desinstale su app y vuelva a registrarla, por el momento no tenemos la opcion de \"volver a registrarse\"");
   }
 
-
+//funcion para icono edscarga
+function descarga(variable){
+    alert("En un momento xomenzara su descarga con la lista de tus tareas");
+  }
