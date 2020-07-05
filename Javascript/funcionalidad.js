@@ -63,5 +63,5 @@ function ajustes(variable){
 
 //funcion para icono edscarga
 function descarga(variable){
-    alert("En un momento xomenzara su descarga con la lista de tus tareas");
+    alert("En un momento comenzara su descarga con la lista de tus tareas");
   }
