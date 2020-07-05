@@ -22,57 +22,80 @@
 </header>
 <body>
     <div class="container-fluid">
-        <div class="row mb-5">
-            <div class="col-12 text-center mt-4">
+        <div class="row">
+            <div class="col-12 text-center mt-4 mb-4">
                 <p1>¿Ya sabes que tenes que hacer hoy?</p1>
             </div>
-            
+        </div>  
            <form class="form-group d-flex justify-content-center align-items-center" name="formulario">
               
+            <div class="row">
+                <div class="col-6">
+                    <input type="email" name="email" id="email" class="form-control  input-login" placeholder="Correo electronico">
+                </div> 
+                <div class="col-6  text-center">
+                    <input type="password" id="login-password" class="form-control input-login" name="pwd" minlength="8" placeholder="Contraseña">
+                </div> 
+              
+
+               <!---->
+               
+                   <div class="col-12 text-center">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">Mantener sesion iniciada
+                   </div>
                 
-             </div>    
-             <div class="col-6">
-                <input type="email" name="email" id="email" class="form-control  input-login" placeholder="Correo electronico">
-            </div> 
-            <div class="col-6 pl-4 pl-md-0 pr-4 pr-md-0 text-center">
-                <input type="password" id="login-password" class="form-control input-login" name="pwd" minlength="8" placeholder="Contraseña">
-            </div> 
-           <!---->
+                
+        
+               
+                <div class="col-12 text-center">
+                    <input class="bg-primary text-white text-center" type="submit" id="btn" value="Verificar Cuenta"><a href="entrar.html"></a></input>
+                    <button type="button" class="btn btn-danger"><a  class="text-white text-decoration-none" href="entrar.html">Entrar sin Cuenta</a></button>
+                </div>
                 
             
-                 <br>
-                 <input type="submit" id="btn" value="Verificar Cuenta"><a href="entrar.html"></a></input>
+               
+                
              </form>
+             
 
             
-             <div class="col-12">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">Mantener sesion iniciada
-            
+           
 
-            </div>
               
             
 
 
-            <div class="col-12 text-center mt-5 justify-content-between">
-                <button type="submit" class="btn btn-primary btn-lg"><a class="text-white text-decoration-none" href="entrar.html"> COMENZAR AHORA A ENLISTAR TUS TAREAS</a></button>
-                <button type="button" class="btn btn-danger btn-lg"><a  class="text-white text-decoration-none" href="entrar.html">Entrar sin Cuenta</a></button>
-            </div>
+          
+             
+                
+               
+               
+               <!-- <div class="col-12 text-center mt-5 justify-content-between">
+                    <input class="bg-primary text-white" type="submit" id="btn" value="Verificar Cuenta"></input>-->
+                   
+                    <div class="d-xs-flex d-sm-flex d-md-flex  d-lg-flex justify-content-sm-end mb-5 fixed-bottom">
+                        <input name="button" type="button" onclick="window.close();" value="Cerrar applicacion" /> 
+                            
+                    </div>
+
+                   
+                 
+                  
+                   
+                </div>
         </div>
     </div>
    
 </body>
 
-<footer class="container-fluid border-top bg-dark text-white d-sm-none d-lg-block">
-      <div class="col-3  d-flex justify-content-start mt-5">
+<footer class="container-fluid border-top bg-dark text-white d-sm-block d-lg-block">
+      <div class="col-sm-3 col-md-3 col-lg-3  d-flex justify-content-start mt-5">
            <p class="d-flex justify-content-start mt-5">Creado en Uruguay</p>
       </div>
        <div class="col-5 hidden-sm-down d-none  d-lg-block">
         <p3>Version WEB</p3>
        </div>
-       <div class="col-5 hidden-lg-down   d-sm-block d-lg-none">
-        <p3>Version MOBIL</p3>
-       </div>
+      
    
        
  </footer>

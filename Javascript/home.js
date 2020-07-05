@@ -29,7 +29,7 @@
         validarContraseña();
 
         if(validar = true) {
-            
+            window.open("file:///C:/Users/igles/Desktop/lista%20de%20tareas/entrar.html");
         }
     };
 
