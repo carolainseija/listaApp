@@ -1,1 +1,0 @@
-prompt("Cual es tu nombre?");
