@@ -8,13 +8,16 @@
 </head>
 <header class="container-fluid">
     <div class="col-12 text-dark pb-5 pt-5 justify-content-between shadow">
-        <h1 class="textMobile d-sm-block d-lg-none">to do LIST</h1>
-        <h1 class="textContainer">to do LIST</h1>
-        <p>Agregue su nueva lista para la tarea <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+		<!--titulo responsive MOBILE-->
+		<h1 class="textMobile d-sm-block d-lg-none">to do LIST</h1>
+		<!--titulo responsive WEB-->
+		<h1 class="textContainer">to do LIST</h1>
+		     <!--Descripcion de la app-->
+            <p>Agregue su nueva lista para la tarea <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
             <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
             <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-          </svg> <br> Elimina las tareas luego de ser realizadas <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            </svg> <br> Elimina las tareas luego de ser realizadas <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z"/>
           </svg> <br> comienza!!</p>
@@ -23,13 +26,15 @@
 <body>
 	<div class="container-fluid principal">
 		<div class="row wrap">
+			<!--formulario para agregar tareas-->
 			<form class="formulario col-10 mt-5 text-center" action="">
 				<input class="col-7 error" type="text" id="escribirTarea" placeholder=" Agrega tu nueva tarea">
 				<input type="button" class="btn boton bg-white border border-dark" id="agregarElemento" value=" + Agregar Tarea">
 			</form>
 		</div>
 	</div>
- 
+
+    <!--lista de tareas-->
 	<div class="row tareas">
 		<div class="col-12 shadow p-3 mb-5 bg-white rounded wrap border border-dark">
             <img src="https://www.computerhope.com/jargon/t/task.jpg" alt="">
@@ -47,38 +52,31 @@
             </div>
 	</div>
 	
-	<footer class="container">
+	<footer class="container-fluid">
 		<div class="row mb-2">
-			<div class="col-sm-3 d-sm-block d-lg-none"><a href="HOME.html"><img src="https://st.depositphotos.com/2229436/2385/v/950/depositphotos_23857305-stock-illustration-gray-glossy-web-button-with.jpg" alt="width="70px" height="70px""></a></div>
-
-		
-</div>
-<div class="col-sm-3 col-lg-4"><a href="#">
-	<span id='imagen 2' onclick='descarga(this)'>
-		<img src="https://tse2.mm.bing.net/th?id=OIP.YHLeQBtu7BGtCbu0u1z9ygHaHa&pid=Api&P=0&w=300&h=300" alt="width="70px" height="70px"">
-		</span></a>
-</div>
-
-
-
-
-			
-
+			<!--icono de volver atras-->
+			<div class="col-sm-3 d-sm-block d-lg-none"><a href="HOME.html">
+				<img src="https://st.depositphotos.com/2229436/2385/v/950/depositphotos_23857305-stock-illustration-gray-glossy-web-button-with.jpg" alt="width="70px" height="70px"">
+			   </a></div>
+            </div>
+            <!--icono de descargs-->
+            <div class="col-sm-3 col-lg-4"><a href="#">
+	            <span id='imagen 2' onclick='descarga(this)'>
+		         <img src="https://tse2.mm.bing.net/th?id=OIP.YHLeQBtu7BGtCbu0u1z9ygHaHa&pid=Api&P=0&w=300&h=300" alt="width="70px" height="70px"">
+	         	</span></a>
+            </div>
+            <!--icono de usuario-->
 			<div class="col-sm-3 col-lg-4"><a href="#">
 				<span id='imagen 2' onclick='usuario(this)'>
 					<img src="http://180dc.org/wp-content/uploads/2016/08/default-profile.png" alt="width="70px" height="70px"">
-					</span></a>
-</div>
-			
-
-			
-
-
+				</span></a>
+            </div>
+			<!--icono de ajustes-->
 			<div class="col-sm-3 col-lg-4"><a href="#">
 				<span id='imagen 2' onclick='ajustes(this)'>
 					<img src="https://tse1.mm.bing.net/th?id=OIP.HzsyQyB8Eq-04x16Aak9iwHaHa&pid=Api&P=0&w=300&h=300" alt="width="70px" height="70px"">
-					</span></a>
-</div>
+				</span></a>
+            </div>
 		</div>
 	</footer>
 	 
