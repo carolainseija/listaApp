@@ -54,7 +54,7 @@
 
 2 //funciones para la imagen de Ajustes
 function ajustes(variable){
-    alert("Hola, estamos en reparacion, no se puede configurar")
+    alert("Hola, ahora tu configuracion es automatica!!")
   }
 
  //Funcion para la imagen de usuario
@@ -62,7 +62,7 @@ function ajustes(variable){
     alert(prompt("cual es su nombre?") + " " + "si decea cambia de usuario solo desinstale su app y vuelva a registrarla, por el momento no tenemos la opcion de \"volver a registrarse\"");
   }
 
-//funcion para icono edscarga
+//funcion para icono descarga
 function descarga(variable){
     alert("En un momento comenzara su descarga con la lista de tus tareas");
   }
