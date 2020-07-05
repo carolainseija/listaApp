@@ -51,3 +51,14 @@
 
 }());
 
+//FUNCION para la imagen de Ajustes
+function ajustes(variable){
+    alert("Hola, estamos en reparacion, no se puede configurar")
+  }
+
+ //Funcion para la imagen de usuario
+ function usuario(variable){
+    alert(prompt("cual es su nombre?") + " " + "si decea cambia de usuario solo desinstale su app y vuelva a registrarla, por el momento no tenemos la opcion de \"volver a registrarse\"");
+  }
+
+
