@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link css-->
     <link rel="stylesheet" href="CSS/home.css">
+    <!--link boostrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
     <title>HOME</title>
 </head>
+
+<!--header-->
 <header>
     <div class="container">
         <div class="row">
@@ -15,90 +18,55 @@
                 <img  class="imagenindex" src="sources/reloj.jpg" alt="reloj">
             </div>
             <div class="col-12 bg-dark text-white">
-                    <h1 class="text-center">To do LIST</h1>
+                 <h1 class="text-center">To do LIST</h1>
            </div>
         </div>
     </div>
 </header>
+
 <body>
     <div class="container-fluid">
         <div class="row">
+            <!--eslogan-->
             <div class="col-12 text-center mt-4 mb-4">
                 <p1>¿Ya sabes que tenes que hacer hoy?</p1>
             </div>
         </div>  
+        <!--Formulario-->
            <form class="form-group d-flex justify-content-center align-items-center" name="formulario">
-              
-            <div class="row">
+               <div class="row">
                 <div class="col-6">
                     <input type="email" name="email" id="email" class="form-control  input-login" placeholder="Correo electronico">
                 </div> 
                 <div class="col-6  text-center">
                     <input type="password" id="login-password" class="form-control input-login" name="pwd" minlength="8" placeholder="Contraseña">
                 </div> 
-              
-
-               <!---->
-               
-                   <div class="col-12 text-center">
+                <div class="col-12 text-center">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">Mantener sesion iniciada
-                   </div>
-                
-                
-        
-               
+                </div>
                 <div class="col-12 text-center">
                     <input class="bg-primary text-white text-center" type="submit" id="btn" value="Verificar Cuenta"><a href="entrar.html"></a></input>
                     <button type="button" class="btn btn-danger"><a  class="text-white text-decoration-none" href="entrar.html">Entrar sin Cuenta</a></button>
                 </div>
-                
-            
-               
-                
-             </form>
-             
-
-            
-           
-
-              
-            
-
-
-          
-             
-                
-               
-               
-               <!-- <div class="col-12 text-center mt-5 justify-content-between">
-                    <input class="bg-primary text-white" type="submit" id="btn" value="Verificar Cuenta"></input>-->
-                   
-                    <div class="d-xs-flex d-sm-flex d-md-flex  d-lg-flex justify-content-sm-end mb-5 fixed-bottom">
-                        <input name="button" type="button" onclick="window.close();" value="Cerrar applicacion" /> 
-                            
-                    </div>
-
-                   
-                 
-                  
-                   
-                </div>
-        </div>
+               </div>
+            </form>
+            <!--boton de cerrar app-->
+         <div class="d-xs-flex d-sm-flex d-md-flex  d-lg-flex justify-content-sm-end mb-5 fixed-bottom">
+             <input name="button" type="button" onclick="window.close();" value="Cerrar applicacion" /> 
+         </div>
     </div>
-   
 </body>
 
+<!--footer-->
 <footer class="container-fluid border-top bg-dark text-white d-sm-block d-lg-block">
-      <div class="col-sm-3 col-md-3 col-lg-3  d-flex justify-content-start mt-5">
-           <p class="d-flex justify-content-start mt-5">Creado en Uruguay</p>
-      </div>
-       <div class="col-5 hidden-sm-down d-none  d-lg-block">
+    <div class="col-sm-3 col-md-3 col-lg-3  d-flex justify-content-start mt-5">
+       <p class="d-flex justify-content-start mt-5">Creado en Uruguay</p>
+    </div>
+    <div class="col-5 hidden-sm-down d-none  d-lg-block">
         <p3>Version WEB</p3>
-       </div>
-      
-   
-       
+    </div>
  </footer>
 
+ <!--link codigo javascript-->
 <script src="Javascript/home.js"></script>
 </html>
