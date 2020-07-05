@@ -1,8 +1,9 @@
+1 //funciones para las listas
 (function(){
     //variables
     var lista = document.getElementById("lista"),
      escribirTarea = document.getElementById("escribirTarea"),
-     nuevaTarea = document.getElementById("agregarElemento"); //btn-agregar = agregarElemento
+     nuevaTarea = document.getElementById("agregarElemento"); 
 
     //funciones
     var comprobarInput = function(){
@@ -51,7 +52,7 @@
 
 }());
 
-//FUNCION para la imagen de Ajustes
+2 //funciones para la imagen de Ajustes
 function ajustes(variable){
     alert("Hola, estamos en reparacion, no se puede configurar")
   }
